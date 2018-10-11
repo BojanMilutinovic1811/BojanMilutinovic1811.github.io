@@ -519,7 +519,7 @@ footer {
     /* about section */
 
     #about {
-        padding-top: 8px;
+        padding: 8px 10px 0 10px;
     }
 
     .section-content {
