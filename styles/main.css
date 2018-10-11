@@ -176,7 +176,7 @@ header {
 /* about section */
 
 #about {
-    background: url(../images/about.jpg) center center/cover;
+    background: url(../images/about.JPG) center center/cover;
     height: 100vh;
     padding-top: 20px;
     position: relative;
@@ -244,19 +244,19 @@ header {
     height: 80%;
 }
 .typenspeak {
-    background: url(../images/typeNspeak.png) center center/cover;
+    background: url(../images/typeNspeak.PNG) center center/cover;
 }
 .loanCalculator {
-    background: url(../images/loanCalculator.png) center center/cover;
+    background: url(../images/loanCalculator.PNG) center center/cover;
 }
 .webPage {
-    background: url(../images/webPage.png) center center/cover;
+    background: url(../images/webPage.PNG) center center/cover;
 }
 .bootstrapWebpage {
-    background: url(../images/bootstrapWebpage.png) center center/cover;
+    background: url(../images/bootstrapWebpage.PNG) center center/cover;
 }
 .robofriends {
-    background: url(../images/robofriends.png) center center/cover;
+    background: url(../images/robofriends.PNG) center center/cover;
 }
 
 .about-project {
