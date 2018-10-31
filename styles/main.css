@@ -190,6 +190,7 @@ header {
     text-align: center;
     padding: 10px 20px;
     opacity: 0.9;
+    transform: scale(1);
     border-radius: 5px;
     background: #262626;
     color: white;
@@ -397,7 +398,7 @@ footer {
     position: absolute;
     bottom: 65px;
     right: 50%;
-    transform: translateX(48%);
+    transform: translateX(48%) scale(1);
     font-size: 1.5rem;
     padding: 10px 20px;
     text-align: center;
