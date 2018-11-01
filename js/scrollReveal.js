@@ -1,4 +1,4 @@
-window.sr = ScrollReveal();
+window.sr = new ScrollReveal({ mobile: false })
 
 
 sr.reveal('.section-content', {
