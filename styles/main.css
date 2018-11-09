@@ -137,7 +137,7 @@ header {
 }
 
 .letters {
-    font-family: 'Linoleo Script';
+    font-family: 'Linoleo Script', 'K2D', sans-serif;
 }
 
 .quicksand {
@@ -541,10 +541,19 @@ footer {
         transform: rotate(45deg) translate(4px, 4px);
     }
 
+    .letters {
+        font-family: 'k2d';
+    }
+
     #home .main-heading {
-        font-size: 8rem;
+        font-size: 4rem;
         padding: 10px;
         margin-top: -100px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transform: none;
+        margin: 0;
+        font-weight: 300;
     }
 
     .text-shadow {
