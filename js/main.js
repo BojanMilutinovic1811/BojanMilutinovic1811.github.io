@@ -4,7 +4,6 @@ const menuBtn = document.getElementById('menu-btn'),
       open = document.getElementById('open'),
       letters = document.querySelectorAll('.letters'),
       openList = document.querySelectorAll('.openList'),
-      switchLights = document.querySelectorAll('.switch'),
       quoteText = document.getElementById('quote-text'),
       quoteAuthor = document.getElementById('quote-author'),
       menuItems = document.querySelectorAll('.menu-item');
@@ -103,7 +102,6 @@ function dropOpen() {
     setTimeout(()=> {
         openList.forEach(li => li.classList.add('drop-li'))
         open.classList.add('drop');
-        switchLights.forEach(element => element.classList.add('turn-off'))
     }, dropDelay)
 }
 

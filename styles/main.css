@@ -1,4 +1,11 @@
 
+
+@font-face {
+    font-family: 'Linoleo Script';
+    src: url(LinoleoScript.ttf);
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -120,36 +127,42 @@ header {
 }
 
 #home .main-heading {
-    font-size: 6rem;
-    margin-bottom: 30px;
-    letter-spacing: 0.9rem;
+    font-size: 15rem;
     color: #484848;
-    text-transform: uppercase;
+    transform: rotate(-10deg);
+    transform-origin: top left;
+    margin-top: -150px;
+    margin-left: -50px;
+    letter-spacing: -10px;
+}
+
+.letters {
+    font-family: 'Linoleo Script';
+}
+
+.quicksand {
+    font-family: 'Quicksand', 'K2D', sans-serif;
+    font-weight: 300;
 }
 
 #home .sub-heading {
     font-size: 3rem;
     text-transform: uppercase;
-    font-weight: 300;
     letter-spacing: 0.4rem;
-    margin-bottom: 50px;
-    color: #acffff;
-    text-shadow: 0 0 10px #0ff, 0 0 20px #00b5d4;
 }
 
 #open {
     display: flex;
     padding: 20px;
+    margin-top: 50px;
     justify-content: center;
     align-items: center;
-    border: #acffff solid 2px;
-    box-shadow: 0 0 10px #0ff, 0 0 20px #00b5d4, inset 0 0 10px #0ff, inset 0 0 20px #00b5d4;
+    border: #acffff solid 3px;
+    box-shadow: 0 0 10px #0ff, 0 0 20px #00b5d4, 0 0 30px #00b4d4c2, inset 0 0 10px #0ff, inset 0 0 20px #00b5d4, inset 0 0 30px #00b4d4c2;
     border-radius: 5px;
     font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 0.7rem;
-    color: #acffff;
-    text-shadow: 0 0 10px #0ff, 0 0 20px #00b5d4;
 }
 
 .space {
@@ -168,7 +181,7 @@ header {
 
 .text-shadow {
     color: #acffff;
-    text-shadow: 0 0 13px #0ff, 0 0 25px #00b5d4;
+    text-shadow: 0 0 13px #0ff, 0 0 25px #00b5d4, 0 0 40px #00b4d4c2;
 }
 
 .turn-off {
@@ -326,10 +339,7 @@ header {
 .contact-heading {
     font-size: 3rem;
     text-transform: uppercase;
-    font-weight: 300;
     letter-spacing: 0.4rem;
-    color: #acffff;
-    text-shadow: 0 0 10px #0ff, 0 0 20px #00b5d4;
 }
 
 .contact-animate {
@@ -532,8 +542,14 @@ footer {
     }
 
     #home .main-heading {
-        font-size: 4rem;
+        font-size: 8rem;
         padding: 10px;
+        margin-top: -100px;
+    }
+
+    .text-shadow {
+        color: #acffff;
+        text-shadow: 0 0 10px #0ff, 0 0 20px #00b5d4, 0 0 30px #00b4d4c2;
     }
 
     #home .sub-heading {
@@ -544,6 +560,10 @@ footer {
         font-size: 1.5rem;
         padding: 10px;
         letter-spacing: 0.3rem;
+        border: #acffff solid 2px;
+        box-shadow: 0 0 8px #0ff, 0 0 15px #00b5d4, 0 0 25px #00b4d4c2, inset 0 0 8px #0ff, inset 0 0 15px #00b5d4, inset 0 0 25px #00b4d4c2;
+        margin-top: 30px;
+
     }
 
     .space {
