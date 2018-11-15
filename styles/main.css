@@ -263,6 +263,9 @@ header {
     overflow: hidden;
     position: relative;
 }
+.omnifood {
+    background: url(../images/omnifood.PNG) center center/cover;
+}
 .typenspeak {
     background: url(../images/typeNspeak.PNG) center center/cover;
 }
