@@ -1,0 +1,151 @@
+
+@media all and (max-width: 770px) { 
+
+    #home .main-heading {
+        margin-top: -100px;
+    }
+
+    .letters {
+        font-size: 14rem;
+    }
+
+    #home .sub-heading {
+        margin-top: -15px;
+        font-size: 2.5rem;
+    }
+
+    #open {
+        margin-top: 15px;
+        font-size: 2.5rem;
+        padding: 15px;
+    }
+
+    .drop {transform: rotate(10deg)}
+
+
+    .section-content {
+        width: 80%;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    #cv {
+        bottom: 90px;
+        font-size: 1rem;
+        right: 55%;
+    }
+
+}
+
+
+
+@media all and (max-width: 480px) {
+    #home .main-heading {
+        margin-top: -130px;
+        letter-spacing: -15px;
+        margin-left: -90px;
+    }
+
+    .letters {
+        font-size: 11rem;
+    }
+
+    #home .sub-heading {
+        font-size: 2.2rem;
+        margin-top: -20px;
+    }
+
+    #open {
+        padding: 10px;
+        font-size: 2rem;
+        margin-top: 20px;
+        border: #acffff solid 2px;
+        letter-spacing: 0.rem;
+    }
+
+    #about {
+        padding-top: 10px;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+    .text {
+        font-size: 0.9rem;
+    }
+
+    #cv {
+        bottom: 40px;
+        right: 50%;
+        padding: 5px 10px;
+    }
+
+    .section-content {
+        margin-bottom: 15px;
+        width: 90%;
+        padding: 5px 10px;
+    }
+
+    #myWork {
+        padding: 15px 10px;
+    }
+
+    .contact-heading {
+        font-size: 2.4rem;
+    }
+
+    #contact ul li {
+        margin: 8px;
+    }
+
+    #contact ul li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+}
+
+
+
+@media all and (min-width: 1300px) {
+    .menu-item a {
+        font-size: 4rem;
+    }
+    #home .main-heading {
+        font-size: 17rem;
+    }
+
+    #home .sub-heading {
+        font-size: 4rem;
+        letter-spacing: 0.5rem;
+    }
+
+    #open {
+        font-size: 4rem;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .text {
+        font-size: 1.4rem;
+    }
+
+    .contact-heading {
+        font-size: 4rem;
+    }
+
+    .contact ul li a {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 35px;
+    }
+}
