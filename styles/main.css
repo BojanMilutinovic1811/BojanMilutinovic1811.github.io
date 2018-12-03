@@ -275,6 +275,9 @@ header {
 .loanCalculator {
     background: url(../images/loanCalculator.PNG) center center/cover;
 }
+.taskList {
+    background: url(../images/taskList.PNG) center center/cover;
+}
 .webPage {
     background: url(../images/sunsetChaser.PNG) center center/cover;
 }
