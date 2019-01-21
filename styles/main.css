@@ -333,14 +333,8 @@ header {
 .typenspeak {
     background: url(../images/typeNspeak.PNG) center center/cover;
 }
-.loanCalculator {
-    background: url(../images/loanCalculator.PNG) center center/cover;
-}
 .taskList {
     background: url(../images/taskList.PNG) center center/cover;
-}
-.webPage {
-    background: url(../images/sunsetChaser.PNG) center center/cover;
 }
 .bootstrapWebpage {
     background: url(../images/bootstrapWebpage.PNG) center center/cover;
@@ -348,9 +342,8 @@ header {
 .robofriends {
     background: url(../images/robofriends.PNG) center center/cover;
 }
-.responsiveWebpage {
-    background: url(../images/responsiveWebpage.PNG) center center/cover;
-}
+
+
 .scrollAnimatedWebpage {
     background: url(../images/scrollAnimatedWebpage.PNG) center center/cover;
 }
@@ -358,6 +351,12 @@ header {
     background: url(../images/githubSearch.PNG) center center/cover;
 }
 
+.lyricsSearch {
+    background: url(../images/lyricsSearch.PNG) center center/cover;
+}
+.contactManager {
+    background: url(../images/contactManager.PNG) center center/cover;
+}
 .progress::before {
     
     content: 'Work in progress...';
