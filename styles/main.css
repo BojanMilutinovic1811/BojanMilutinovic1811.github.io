@@ -165,6 +165,11 @@ header {
     letter-spacing: -10px;
 }
 
+.letters:hover, .sub-heading:hover {
+    color: #484848;
+    text-shadow: none;
+}
+
 .letters {
     font-family: 'Linoleo Script', 'K2D', sans-serif;
 }
@@ -240,14 +245,14 @@ header {
 
 .section-content {
     text-align: center;
-    padding: 10px 20px;
+    padding: 10px;
     opacity: 0.9;
     -webkit-transform: scale(1);
             transform: scale(1);
     border-radius: 5px;
     background: #262626;
     color: white;
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 30px;
 }
@@ -336,13 +341,6 @@ header {
 .taskList {
     background: url(../images/taskList.PNG) center center/cover;
 }
-.bootstrapWebpage {
-    background: url(../images/bootstrapWebpage.PNG) center center/cover;
-}
-.robofriends {
-    background: url(../images/robofriends.PNG) center center/cover;
-}
-
 
 .scrollAnimatedWebpage {
     background: url(../images/scrollAnimatedWebpage.PNG) center center/cover;
@@ -356,26 +354,6 @@ header {
 }
 .contactManager {
     background: url(../images/contactManager.PNG) center center/cover;
-}
-.progress::before {
-    
-    content: 'Work in progress...';
-    color: white;
-    text-align: center;
-    padding-top: 100px;
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, .7);
-    -webkit-transition: .5s;
-    transition: .5s;
-
-}
-
-.progress:hover::before {
-    left: 0;
 }
 
 .about-project {
@@ -401,8 +379,9 @@ header {
 /* conctact section */
 
 #contact {
-    height: 50vh;
+    height: 33vh;
     background: #262626;
+    padding: 20px;
 }
 
 .contact-title {
