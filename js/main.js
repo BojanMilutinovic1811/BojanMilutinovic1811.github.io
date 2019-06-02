@@ -125,6 +125,23 @@
     }, lightsInterval);
   }
 
+
+  //menu visibility hidden on scroll down and visible on scroll up
+  var lastScrollTop = 0;
+// element should be replaced with the actual target element on which you have applied scroll, use window in case of no target element.
+window.addEventListener("scroll", function () {
+  var st = window.pageYOffset || document.documentElement.scrollTop;
+  if (st > lastScrollTop) {
+    console.log('down');
+    menuBtn.style.visibility = "hidden"
+  } else {
+    console.log('up');
+
+    menuBtn.style.visibility = "visible"
+  }
+  lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
+}, false);
+
   // particlesJS.load('particles-js', 'particles.json', function() {
 
   // });
